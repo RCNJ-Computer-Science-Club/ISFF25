@@ -3,109 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> ISFF25 - Int'l Street Food Festival | Ramapo College </title>
+  <title>ISFF25 - Int'l Street Food Festival | Ramapo College</title>
+
+  <!-- Open Graph Tags (for link previews) -->
   <meta property="og:title" content="ISFF25 - Int'l Street Food Festival | Ramapo College">
   <meta property="og:description" content="Experience the ultimate street food festival with workshops, live performances, and activities. Check out our event agenda!">
   <meta property="og:image" content="https://github.com/RCNJ-Computer-Science-Club/ISFF25/blob/0fc712187cb9051a5f81593f9705c44d8cf5dc81/res/logo/ISFF25.png?raw=true">
   <meta property="og:url" content="https://github.com/RCNJ-Computer-Science-Club/ISFF25/blob/0fc712187cb9051a5f81593f9705c44d8cf5dc81/res/logo/ISFF25.png?raw=true">
   <meta property="og:type" content="website">
 
-
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
-
-
-  <style>
-    body {
-      font-family: 'Raleway', sans-serif;
-      background: #fdf7f0;
-      color: #333;
-    }
-    .hero {
-      background: url('https://via.placeholder.com/1500x600?text=Street+Food+Festival') no-repeat center center/cover;
-      color: #fff;
-      padding: 100px 20px;
-      text-align: center;
-      position: relative;
-    }
-    .hero::after {
-      content: "";
-      background-color: rgba(0, 0, 0, 0.5);
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
-    .hero h1 {
-      position: relative;
-      z-index: 1;
-      font-size: 3rem;
-      margin-bottom: 20px;
-    }
-    .hero p {
-      position: relative;
-      z-index: 1;
-      font-size: 1.25rem;
-    }
-    .section-title {
-      font-weight: 700;
-      margin-top: 40px;
-      margin-bottom: 20px;
-      border-bottom: 2px solid #f0c040;
-      display: inline-block;
-      padding-bottom: 5px;
-    }
-    .agenda-item {
-      background: #fff;
-      border: 1px solid #eee;
-      padding: 15px;
-      margin-bottom: 10px;
-      border-left: 5px solid #f0c040;
-    }
-    .agenda-item h5 {
-      margin: 0;
-      font-weight: 700;
-    }
-    .agenda-item p {
-      margin: 0;
-      color: #666;
-    }
-    /* Section styling for event details */
-    .event-section {
-      padding: 60px 20px;
-    }
-    .sponsor-logo {
-      max-width: 120px;
-      margin: 10px;
-    }
-    @media (max-width: 576px) {
-      .hero h1 {
-        font-size: 2rem;
-      }
-      .hero p {
-        font-size: 1rem;
-      }
-    }
-  </style>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <!-- Hero Section -->
   <header class="hero">
-    <div class="container">
-      <h1>2025 International Street Food Festival | RCNJ </h1>
-      <p>Experience the fusion of food, art, and culture. Enjoy workshops, live performances, activities, and much more!</p>
+    <div class="container text-center">
+      <!-- Logo -->
+      <!-- <img 
+        src="res/banner/ISFF25.png" 
+        alt="ISFF25 Logo" 
+        class="hero-logo mb-3"
+      > -->
+      <h1>2025 International Street Food Festival | RCNJ</h1>
+      <p>
+        Experience the fusion of food, art, and culture. Enjoy workshops, 
+        live performances, activities, and much more!
+      </p>
     </div>
   </header>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#">ISFF25</a>
+      <!-- Logo in nav (optional, if you want a smaller version) -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="res/logo/ISFF25_2.png" alt="ISFF25" style="height:40px; margin-right:10px;">
+        ISFF25
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -128,48 +68,48 @@
     <div class="container">
       <h2 class="section-title">Event Agenda</h2>
       <div class="agenda-item">
-        <h5>9:00 AM - 10:00 AM</h5>
+        <h5>9:00 AM - 10:00 AM | TBD </h5>
         <p>Kick Off</p>
       </div>
       <div class="agenda-item">
-        <h5>10:00 AM - 10:45 AM</h5>
+        <h5>10:00 AM - 10:45 AM | TBD </h5>
         <p>Workshop #1</p>
       </div>
       <div class="agenda-item">
-        <h5>11:00 AM - 2:00 PM</h5>
-        <p>Taste of Asia (Birch)</p>
+        <h5>11:00 AM - 2:00 PM | Birch Tree Inn </h5>
+        <p>Taste of Asia </p>
       </div>
       <div class="agenda-item">
-        <h5>11:00 AM - 11:45 AM</h5>
+        <h5>11:00 AM - 11:45 AM | TBD </h5>
         <p>Workshop #2</p>
       </div>
       <div class="agenda-item">
-        <h5>12:00 PM - 12:45 PM</h5>
+        <h5>12:00 PM - 12:45 PM | TBD </h5>
         <p>Workshop #3</p>
       </div>
       <div class="agenda-item">
-        <h5>1:00 PM - 1:45 PM</h5>
+        <h5>1:00 PM - 1:45 PM | TBD </h5>
         <p>Workshop #4</p>
       </div>
       <div class="agenda-item">
-        <h5>2:00 PM - 2:45 PM</h5>
+        <h5>2:00 PM - 2:45 PM | TBD </h5>
         <p>Workshop #5</p>
       </div>
       <div class="agenda-item">
-        <h5>3:00 PM - 3:45 PM</h5>
+        <h5>3:00 PM - 3:45 PM | TBD </h5>
         <p>Workshop #6</p>
       </div>
       <div class="agenda-item">
-        <h5>4:00 PM - 4:45 PM</h5>
+        <h5>4:00 PM - 4:45 PM | TBD </h5>
         <p>Workshop #7</p>
       </div>
       <div class="agenda-item">
-        <h5>5:50 PM - 7:30 PM</h5>
-        <p>Street Food Festival (Grove)</p>
+        <h5>5:50 PM - 7:30 PM | Grove </h5>
+        <p>Street Food Festival </p>
       </div>
       <div class="agenda-item">
-        <h5>8:00 PM - 9:00 PM</h5>
-        <p>Street Night (Grove)</p>
+        <h5>8:00 PM - 9:00 PM | Grove </h5>
+        <p>Street Night</p>
       </div>
     </div>
   </section>
@@ -180,40 +120,76 @@
       <h2 class="section-title">Hosts</h2>
       <p>Meet our enthusiastic hosts who will guide you through the festival!</p>
       <div class="row">
-        <div class="col-md-4 text-center"> <img src="res/logo/CSI.jpg" alt="CSI" class="rounded-circle mb-2" style="width: 150px; height: 150px"> <h5>Center for Student Involvement</h5>
-        <div class="col-md-4 text-center"> <img src="res/logo/ISO.jpg" alt="ISO" class="rounded-circle mb-2" style="width: 150px; height: 150px;"> <h5>International Student Organization</h5> </div>
-        <div class="col-md-4 text-center"> <img src="res/logo/UAA.jpg" alt="UAA" class="rounded-circle mb-2" style="width: 150px; height: 150px;"> <h5>United Asian Association </h5> </div>
-        <div class="col-md-4 text-center"> <img src="res/logo/BSU.jpg" alt="BSU" class="rounded-circle mb-2" style="width: 150px; height: 150px"> <h5>Black Student Union</h5>
-        <div class="col-md-4 text-center"> <img src="res/logo/TPA.jpg" alt="ΘΦΑ" class="rounded-circle mb-2" style="width: 150px; height: 150px"> <h5>Theta Phi Alpha</h5>
-        <div class="col-md-4 text-center"> <img src="res/logo/WRPR.jpg" alt="WRPR" class="rounded-circle mb-2" style="width: 150px; height: 150px"> <h5>Broadcasting Club</h5>
+        <div class="col-md-4 text-center">
+          <img src="res/logo/CSI.jpg" alt="CSI" class="rounded-circle mb-2" style="width: 150px; height: 150px;">
+          <h5>Center for Student Involvement</h5>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="res/logo/ISO.jpg" alt="ISO" class="rounded-circle mb-2" style="width: 150px; height: 150px;">
+          <h5>International Student Organization</h5>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="res/logo/UAA.jpg" alt="UAA" class="rounded-circle mb-2" style="width: 150px; height: 150px;">
+          <h5>United Asian Association</h5>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="res/logo/BSU.jpg" alt="BSU" class="rounded-circle mb-2" style="width: 150px; height: 150px;">
+          <h5>Black Student Union</h5>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="res/logo/TPA.jpg" alt="Theta Phi Alpha" class="rounded-circle mb-2" style="width: 150px; height: 150px;">
+          <h5>Theta Phi Alpha</h5>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="res/logo/WRPR.jpg" alt="WRPR" class="rounded-circle mb-2" style="width: 150px; height: 150px;">
+          <h5>Broadcasting Club</h5>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Sponsors Section -->
-  <section id="sponsors" class="event-section">
-    <div class="container">
-      <h2 class="section-title">Golden Sponsors</h2>
-      <p>We are proud to have the support of our generous co-sponsors.</p>
-      <div class="d-flex flex-wrap justify-content-center">
-        <img src="res/logo/SAC.jpg" alt="Sponsor 1" class="sponsor-logo">
-        <img src="res/logo/FASA.png" alt="Sponsor 1" class="sponsor-logo">
-        <img src="res/logo/SOCA.jpg" alt="Sponsor 1" class="sponsor-logo">
-        <img src="res/logo/OLU.jpg" alt="Sponsor 1" class="sponsor-logo">
-        <img src="res/logo/ALMA.jpg" alt="Sponsor 1" class="sponsor-logo">
-        <img src="res/logo/CAPS.jpg" alt="Sponsor 1" class="sponsor-logo">
-        <img src="res/logo/CSC.png" alt="Sponsor 1" class="sponsor-logo">
-      </div>
+  <!-- Golden Sponsors Section -->
+<section id="sponsors" class="event-section">
+  <div class="container">
+    <h2 class="section-title">Golden Sponsors</h2>
+    <p>We are proud to have the support of our generous co-sponsors.</p>
+    <div class="d-flex flex-wrap justify-content-center">
+      <img src="res/logo/Dining.jpg" alt="Sponsor 1" class="sponsor-logo">
+      <img src="res/logo/Roukema.jpg" alt="Sponsor 1" class="sponsor-logo">
+      <img src="res/logo/SAC.jpg" alt="Sponsor 1" class="sponsor-logo">
+      <img src="res/logo/FASA.png" alt="Sponsor 2" class="sponsor-logo">
+      <img src="res/logo/SOCA.jpg" alt="Sponsor 3" class="sponsor-logo">
+      <img src="res/logo/OLU.jpg" alt="Sponsor 4" class="sponsor-logo">
+      <img src="res/logo/ALMA.jpg" alt="Sponsor 5" class="sponsor-logo">
+      <img src="res/logo/CAPS.jpg" alt="Sponsor 6" class="sponsor-logo">
+      <img src="res/logo/CSC.png" alt="Sponsor 7" class="sponsor-logo">
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- Regular Sponsors Section -->
+<section id="regular-sponsors" class="event-section bg-light">
+  <div class="container">
+    <h2 class="section-title">Sponsors</h2>
+    <p>We thank our valued regular sponsors for their support.</p>
+    <div class="d-flex flex-wrap justify-content-center">
+      <img src="res/logo/IVCF.jpg" alt="Regular Sponsor 1" class="sponsor-logo small-logo">
+      <img src="res/logo/GDG.jpg" alt="Regular Sponsor 3" class="sponsor-logo small-logo">
+      <!-- Add additional regular sponsor logos here -->
+    </div>
+  </div>
+</section>
+
 
   <!-- Food Booth Section -->
   <section id="food-booth" class="event-section bg-light">
     <div class="container">
       <h2 class="section-title">Food Booth</h2>
-      <p>Discover a wide variety of street food from all over Asia. Our food booths offer delicious snacks and meals for every taste!</p>
-      <img src="https://via.placeholder.com/800x400?text=Delicious+Food" alt="Food Booth" class="img-fluid rounded">
+      <p>
+        Discover a wide variety of street food from all over the world. Our food booths offer 
+        delicious snacks and appetizers for every taste!
+      </p>
+      <!-- <img src="https://via.placeholder.com/800x400?text=Delicious+Food" alt="Food Booth" class="img-fluid rounded" > -->
     </div>
   </section>
 
@@ -221,15 +197,10 @@
   <section id="performances" class="event-section">
     <div class="container">
       <h2 class="section-title">Performances</h2>
-      <p>Enjoy live performances featuring music, dance, and cultural acts that will bring the streets alive!</p>
+      <p>Enjoy live performances featuring music, dance, and cultural acts that will bring the streets (Grove) alive!</p>
       <div class="row">
-        <div class="col-md-6">
-          <img src="https://via.placeholder.com/400x300?text=Live+Music" alt="Live Music" class="img-fluid rounded mb-3">
-        </div>
-        <div class="col-md-6">
-          <img src="https://via.placeholder.com/400x300?text=Street+Performers" alt="Street Performers" class="img-fluid rounded mb-3">
-        </div>
-      </div>
+        <!-- <div class="col-md-6"> <img src="https://via.placeholder.com/400x300?text=Live+Music" alt="Live Music" class="img-fluid rounded mb-3"> </div>
+        <div class="col-md-6"> <img src="https://via.placeholder.com/400x300?text=Street+Performers" alt="Street Performers" class="img-fluid rounded mb-3"> </div> </div> -->
     </div>
   </section>
 
@@ -239,9 +210,9 @@
       <h2 class="section-title">Activities</h2>
       <p>Take part in fun activities—from games and interactive art to engaging cultural exhibitions. There’s something for everyone!</p>
       <ul class="list-unstyled">
-        <li class="mb-2"><strong>Ping Pong Tournaments</strong> - Challenge yourself and win prizes.</li>
+        <!-- <li class="mb-2"><strong>Ping Pong Tournaments</strong> - Challenge yourself and win prizes.</li>
         <li class="mb-2"><strong>Interactive Food Art</strong> - Get creative with edible masterpieces.</li>
-        <li class="mb-2"><strong>Street Juggling</strong> - Enjoy quirky performances and try your hand at juggling.</li>
+        <li class="mb-2"><strong>Street Juggling</strong> - Enjoy quirky performances and try your hand at juggling.</li> -->
       </ul>
     </div>
   </section>
@@ -251,31 +222,9 @@
     <div class="container">
       <h2 class="section-title">Workshops</h2>
       <p>Join our interactive sessions where experts share their secrets—from cooking techniques to creative arts.</p>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-3">
-            <div class="card-body">
-              <h5 class="card-title">Workshop #1</h5>
-              <p class="card-text">Discover culinary techniques and learn how to create delicious dishes.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-3">
-            <div class="card-body">
-              <h5 class="card-title">Workshop #2</h5>
-              <p class="card-text">Explore creative art forms and street performance arts.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-3">
-            <div class="card-body">
-              <h5 class="card-title">Workshop #3</h5>
-              <p class="card-text">Hands-on sessions that mix fun with learning in unexpected ways.</p>
-            </div>
-          </div>
-        </div>
+        <!-- <div class="row"> <div class="col-md-4"> <div class="card mb-3"> <div class="card-body"> <h5 class="card-title">Workshop #1</h5> <p class="card-text">Discover culinary techniques and learn how to create delicious dishes.</p> </div> </div> </div>
+        <div class="col-md-4"> <div class="card mb-3"> <div class="card-body"> <h5 class="card-title">Workshop #2</h5> <p class="card-text">Explore creative art forms and street performance arts.</p> </div> </div> </div>
+        <div class="col-md-4"> <div class="card mb-3"> <div class="card-body"> <h5 class="card-title">Workshop #3</h5> <p class="card-text">Hands-on sessions that mix fun with learning in unexpected ways.</p> </div> </div> </div> -->
         <!-- Additional workshop cards can be added here -->
       </div>
     </div>
@@ -284,7 +233,7 @@
   <!-- Footer -->
   <footer class="text-center py-4 bg-dark text-light">
     <div class="container">
-      <p class="mb-0"> Made with 💚 by the Computer Science Club </p>
+      <p class="mb-0">Made with 💚 by the Computer Science Club</p>
     </div>
   </footer>
 
@@ -292,5 +241,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+  <!-- Custom JavaScript -->
+  <script src="js/scripts.js"></script>
+</body
