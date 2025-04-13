@@ -107,6 +107,6 @@ body {
   }
 }
 
-#web-builder__tmpl-cont {
+.web-builder__tmpl-cont {
   display: none;
 }
