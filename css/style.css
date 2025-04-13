@@ -107,6 +107,21 @@ body {
   }
 }
 
+h1 {
+  color: #eee;
+}
+
+
+nav.container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+
+
+
+
 
 #web-builder__tmpl-cont {
   display: none;
