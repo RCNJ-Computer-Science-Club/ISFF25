@@ -140,3 +140,27 @@ nav.container {
   transform: scale(1.02);
 }
 
+
+
+.countdown-timer {
+  color: #FFD800; /* Golden highlight */
+  font-size: 1.75rem;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.5); /* Subtle overlay */
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 12px;
+  margin-top: 10px;
+  border: 2px solid #FFD800;
+  box-shadow: 0 0 10px rgba(255, 216, 0, 0.4);
+}
+
+#countdown {
+  padding: 6px 12px;
+  border: 1px solid #FFD800;
+  border-radius: 8px;
+  background-color: rgba(255, 216, 0, 0.1);
+  box-shadow: 0 0 6px rgba(255, 216, 0, 0.4);
+  white-space: nowrap;
+}
+

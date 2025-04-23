@@ -38,30 +38,22 @@
     </div>
   </header>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-    <div class="container-fluid">
-      <!-- Logo in nav (optional, if you want a smaller version) -->
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="https://rcnj-computer-science-club.github.io/ISFF25/res/logo/ISFF25_2.png" alt="ISFF25" style="height:40px; margin-right:10px;">
-        ISFF25
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#agenda">Agenda</a></li>
-          <li class="nav-item"><a class="nav-link" href="#hosts">Hosts</a></li>
-          <li class="nav-item"><a class="nav-link" href="#sponsors">Sponsors</a></li>
-          <li class="nav-item"><a class="nav-link" href="#food-booth">Food Booth</a></li>
-          <li class="nav-item"><a class="nav-link" href="#performances">Performances</a></li>
-          <li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
-          <li class="nav-item"><a class="nav-link" href="#workshops">Workshops</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+    
+    <!-- Left-aligned Brand -->
+    <a class="navbar-brand d-flex align-items-center mb-0" href="#">
+      <img src="https://rcnj-computer-science-club.github.io/ISFF25/res/logo/ISFF25_2.png" alt="ISFF25" style="height:40px; margin-right:10px;">
+      ISFF25
+    </a>
+
+    <!-- Right-aligned Countdown -->
+    <div class="ml-auto text-warning font-weight-bold mb-0" id="countdown" style="font-size: 1.1rem;"></div>
+
+  </div>
+</nav>
+
 
   <!-- Agenda Section -->
   <section id="agenda" class="event-section">
@@ -247,4 +239,24 @@
   <script src="js/scripts.js">
     document.documentElement.style.cssText = "";
   </script>
+
+  <script>
+    const countDownDate = new Date("April 25, 2025 10:30:00").getTime();
+    const countdown = document.getElementById("countdown");
+
+    setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countDownDate - now;
+      if (distance <= 0) {
+        countdown.innerHTML = "🎉 The Festival Has Started!";
+        return;
+      }
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60))/(1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60))/1000);
+      countdown.innerHTML = `⏳ Kick off in ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }, 1000);
+  </script>
+
 </body>
