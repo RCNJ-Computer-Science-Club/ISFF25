@@ -132,3 +132,11 @@ nav.container {
 }
 
 
+
+#event-flyer img {
+  transition: transform 0.3s ease;
+}
+#event-flyer img:hover {
+  transform: scale(1.02);
+}
+
