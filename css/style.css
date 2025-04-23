@@ -164,3 +164,25 @@ nav.container {
   white-space: nowrap;
 }
 
+
+
+#check-in .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+#check-in .btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+#check-in .card-title {
+  color: #EC1C24;
+  font-weight: 700;
+}
+
+#check-in .card {
+  border-left: 4px solid #EC1C24;
+  border-radius: 12px;
+}
