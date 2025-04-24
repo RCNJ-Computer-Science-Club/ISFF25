@@ -86,20 +86,46 @@
       ✅ Register Now
     </a>
 
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="card shadow-sm mb-4">
-          <div class="card-body">
-            <h5 class="card-title">📍 Where to Check In</h5>
-            <p class="card-text">you can <strong> Check-In </strong> at these events:</p>
-            <ul class="list-unstyled">
-              <li>Kick-Off @ Multicultural Center</li>
-              <li>Taste of Asia @ Birch Tree Inn</li>
-              <li>Any Workshop Station </li>
-              <li>Street Food Festival @ The Grove </li>
-            </ul>
+
+          <div class="row justify-content-center">
+        <div class="col-md-6">
+
+          <div class="card shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="card-title">📍 Check-In Locations</h5>
+
+              <p class="card-text mb-2">
+                Check in at any of the following locations:
+              </p>
+
+              <div class="mb-3">
+                <strong>⏳ Early Check-In (Bonus Tokens):</strong>
+                <ul class="list-unstyled mb-2">
+                  <li>Kick-Off</li>
+                  <li>Taste of Asia</li>
+                  <li>Any Workshop Station</li>
+                </ul>
+              </div>
+
+              <div>
+                <strong>🎟 Regular Check-In:</strong>
+                <ul class="list-unstyled">
+                  <li>Street Food Festival</li>
+                </ul>
+              </div>
+
+              <p class="mt-3 text-muted font-italic">
+                Early check-in = extra tokens • Regular check-in = standard entry
+              </p>
+            </div>
           </div>
+
         </div>
+      </div>
+
+
+          <div class="row justify-content-center">
+        <div class="col-md-6">
 
         <div class="card shadow-sm">
           <div class="card-body">
@@ -113,6 +139,11 @@
             <p class="font-italic mt-2 text-muted">While supplies last • Check-in required</p>
           </div>
         </div>
+
+        </div>
+        </div>
+
+
       </div>
     </div>
   </div>
@@ -216,6 +247,9 @@
       <img src="https://rcnj-computer-science-club.github.io/ISFF25/res/logo/NAACH.png" alt="Regular Sponsor 3" class="sponsor-logo small-logo">
       <img src="https://rcnj-computer-science-club.github.io/ISFF25/res/logo/WIB.jpg" alt="Regular Sponsor 3" class="sponsor-logo small-logo">
       <img src="https://rcnj-computer-science-club.github.io/ISFF25/res/logo/DSC.jpg" alt="Regular Sponsor 3" class="sponsor-logo small-logo">
+      <img src="https://rcnj-computer-science-club.github.io/ISFF25/res/logo/Vil.jpg" alt="Regular Sponsor 3" class="sponsor-logo small-logo">
+      <img src="https://rcnj-computer-science-club.github.io/ISFF25/res/logo/B&M.jpg" alt="Regular Sponsor 3" class="sponsor-logo small-logo">
+      <img src="https://rcnj-computer-science-club.github.io/ISFF25/res/logo/Lau.jpg" alt="Regular Sponsor 3" class="sponsor-logo small-logo">
       <!-- <img src="https://rcnj-computer-science-club.github.io/ISFF25/res/logo/CA.jpg" alt="Regular Sponsor 3" class="sponsor-logo small-logo">
       <img src="https://rcnj-computer-science-club.github.io/ISFF25/res/logo/FGen.jpg" alt="Regular Sponsor 3" class="sponsor-logo small-logo"> -->
       <!-- <img src="https://rcnj-computer-science-club.github.io/ISFF25/res/logo/CA.jpg" alt="Regular Sponsor 3" class="sponsor-logo small-logo"> --> 
@@ -279,7 +313,7 @@
       const hours = Math.floor((distance % (1000 * 60 * 60 * 24))/(1000 * 60 * 60));
       const minutes = Math.floor((distance % (1000 * 60 * 60))/(1000 * 60));
       const seconds = Math.floor((distance % (1000 * 60))/1000);
-      countdown.innerHTML = `⏳ Kick off in ${days}d ${hours}h ${minutes}m ${seconds}s`;
+      countdown.innerHTML = `🎉 Kick off in ${days}d ${hours}h ${minutes}m ${seconds}s`;
     }, 1000);
   </script>
 
