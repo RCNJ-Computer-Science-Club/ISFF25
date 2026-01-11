@@ -1,6 +1,6 @@
 /* Hero */
 .hero {
-  background: #666 url("../../res/img/bebd641805f000ba0763d167020e1262 (1).jpg") center center/cover no-repeat;
+  background: #666 url("../res/img/bebd641805f000ba0763d167020e1262 (1).jpg") center center/cover no-repeat;
   color: var(--color-hero-text);
   padding: 75px 20px;
   text-align: center;
