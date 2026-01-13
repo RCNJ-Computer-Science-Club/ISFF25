@@ -24,6 +24,19 @@ live countdown banner.
 - Vendor assets bundled locally (Bootstrap, jQuery, Popper) for offline-friendly demos.
 - Flyer preview with a full-size asset link.
 
+## Problem
+Festival information can get scattered across flyers, chats, and emails, making it hard to find the
+latest schedule, locations, and participation details in one reliable place.
+
+## Why I made this
+I wanted a lightweight, easy-to-update website so students, volunteers, and visitors can access the
+same source of event information. 
+
+## What it has done
+- Centralized the agenda, check-in flow, token system, and booth listings on one page.
+- Provided a live countdown and a clear registration link.
+- This website served hundreds of people. 
+
 ## Quick Start
 Open `src/index.html` directly in a browser, or serve it locally for the smoothest experience:
 
